@@ -1,18 +1,15 @@
 {
   "name": "cli-experiment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "module": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "cli-experiment-js": "./bin/cli.js",
     "cli-experiment-ts": "./bin/cli.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Grégory Houllier",
+    "url": "https://twitter.com/ghoullier"
+  },
+  "license": "MIT",
   "dependencies": {
     "esm": "^3.0.63",
     "ts-node": "^7.0.0",
